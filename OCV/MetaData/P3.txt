@@ -1,0 +1,84 @@
+Image in datatype = numpy.ndarray ie N dimensional array and is an composite data type
+NumPy is Numerical Python
+uint8 is Unsigned Integer 8-bits ie from 00000000(0x00 in hexadecimal or 0 in decimal) to 11111111(0xFF or 255).They represent Constituent memebers of ndarray.
+
+0-255=256 or 16,777,216
+
+[255,255,255] = [Blue, Green, Red]
+
+***************************************
+cv2.imread() image mode parameter list.
+***************************************
+cv::IMREAD_UNCHANGED = -1,
+cv::IMREAD_GRAYSCALE = 0,
+cv::IMREAD_COLOR = 1,
+cv::IMREAD_ANYDEPTH = 2,
+cv::IMREAD_ANYCOLOR = 4,
+cv::IMREAD_LOAD_GDAL = 8,
+cv::IMREAD_REDUCED_GRAYSCALE_2 = 16,
+cv::IMREAD_REDUCED_COLOR_2 = 17,
+cv::IMREAD_REDUCED_GRAYSCALE_4 = 32,
+cv::IMREAD_REDUCED_COLOR_4 = 33,
+cv::IMREAD_REDUCED_GRAYSCALE_8 = 64,
+cv::IMREAD_REDUCED_COLOR_8 = 65,
+cv::IMREAD_IGNORE_ORIENTATION = 128
+***************************************
+
+0 is Black
+255 is White
+
+For Grey Scale images,the dimention is 2 and for Colored images is 3.
+
+
+[[[125 137 226]
+  [130 136 223]
+  [118 133 226]
+  ...
+  [127 145 230]
+  [122 148 232]
+  [100 114 210]]
+
+ [[125 137 226]
+  [130 136 223]
+  [118 133 226]
+  ...
+  [127 145 230]
+  [122 148 232]
+  [100 114 210]]
+
+ [[124 138 226]
+  [121 133 223]
+  [117 134 226]
+  ...
+  [118 133 222]
+  [108 125 217]
+  [ 90  87 182]]
+
+ ...
+
+ [[ 61  28  90]
+  [ 61  28  91]
+  [ 63  29  97]
+  ...
+  [ 71  53 140]
+  [ 73  62 158]
+  [ 74  59 161]]
+
+ [[ 60  20  85]
+  [ 59  25  91]
+  [ 62  26  94]
+  ...
+  [ 82  64 153]
+  [ 81  69 172]
+  [ 78  65 170]]
+
+ [[ 57  22  82]
+  [ 62  30  94]
+  [ 61  25  95]
+  ...
+  [ 84  71 167]
+  [ 78  68 178]
+  [ 81  72 183]]]
+
+
+

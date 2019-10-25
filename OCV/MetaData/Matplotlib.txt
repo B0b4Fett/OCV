@@ -1,0 +1,3 @@
+Matplotlib is a custom library.
+Matlab style is a plotting and visualization Library for python.
+Alernatively we can also use ggplot for the same.

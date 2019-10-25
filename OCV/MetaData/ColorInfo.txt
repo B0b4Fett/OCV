@@ -1,0 +1,25 @@
+Greyscale images are stored in 2D form which means that,Height and Width are used to represent.
+
+Colored images are stored in 3D form which consists of Height, Width and Color_Channels.
+
+Color_Channels are represented in different ways and are called "Colorspaces".
+
+List of some Colorspaces(Refer to P2 in Matplotlib):
+
+1)RGB(RED,GREEN,BLUE)/(255,255,255).
+
+2)BGR(BLUE,GREEN,RED).
+
+3)HSV(Hue Saturation Value).
+
+4)CMY(Cayan,Magenta,Yellow).
+
+5)Greyscale.
+
+Below are some of the MOST commanly used color conversions(Refer to P3 in Matplotlib.):
+
+1)COLOR_BGR2GRAY
+
+2)COLOR_BGR2HSV
+
+3)COLOR_BGR2RGB
