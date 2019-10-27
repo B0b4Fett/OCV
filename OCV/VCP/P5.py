@@ -39,6 +39,7 @@ def main():
         if cv2.waitKey(1) == 27:
             break
      cv2.destroyAllWindows()
+     cap.release()
      
 if __name__ == "__main__":
     main()
