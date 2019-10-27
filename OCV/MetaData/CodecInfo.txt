@@ -1,0 +1,15 @@
+Types of Video Codec i.e Encoding used in OpenCV
+
+FourCC = Four Character Code for codec to pass as parameters in like cv2.VideoWriter_fourcc('D','I','V','X')
+
+1)WMV1
+
+2)WMV2
+
+3)MJPG
+
+4)DIVX
+
+5)XVID
+
+6)H264
