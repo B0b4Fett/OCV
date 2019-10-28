@@ -8,9 +8,9 @@ import cv2
 def main():
     windowName = "Capture Live Video Feed"
     cv2.namedWindow(windowName)
-    cap = cv2.VideoCapture(2)
+    cap = cv2.VideoCapture(0)
     
-    filename = "E:\\OCV\\Output\\P4.avi"
+    filename = "E:\\OCV\\Output\\P4-XVID2.avi"
     codec = cv2.VideoWriter_fourcc('X','V','I','D')
     framerate = 30
     
@@ -21,7 +21,6 @@ def main():
 #   print('height' + str(cap.get(4))) 
     
     resolution = (640,480)
-    
     VideoFileOutput = cv2.VideoWriter(filename, codec, framerate, resolution)
     
     if cap.isOpened():
@@ -31,9 +30,10 @@ def main():
         
     while ret:
         ret, frame = cap.read()
+        frame = cv2.flip(frame, -1 )
         VideoFileOutput.write(frame)
         cv2.imshow(windowName, frame)
-        if cv2.waitKey(1) == 27:
+        if cv2.waitKey(17) == 27:
             break
     
     cv2.destroyAllWindows()
