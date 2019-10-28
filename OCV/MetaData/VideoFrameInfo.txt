@@ -1,0 +1,9 @@
+1000(1k) milisecond is 1second
+
+Framerate of recorded video(fixed) was 30fps(frames per second).
+
+This means that 1000ms/30fps = 33.33...
+
+This can also be said as 30 x 33 = 990 which is ~100.
+
+To see slow motion increase the val in waitKey(val) 
