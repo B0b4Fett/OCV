@@ -1,0 +1,13 @@
+cv2.resize(img, None, fx=1, fy=1)
+
+interpolation = cv2.LINEAR()
+
+INTER_LINEAR
+INTER_NEAREST
+INTER_AREA - shrinking
+INTER_CUBIC - zooming 4 x 4(pixel area)
+INTER_LANCOS4 - 8 x 8(pixel area)
+
+****************************
+Scaling or resizing of image = Shrinking(Scaling-Down)/ Zooming(Scaling-Up)
+****************************

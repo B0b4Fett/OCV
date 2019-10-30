@@ -1,0 +1,11 @@
+Translation in OpenCV is shifting of image.
+
+This is used for Geometric operations on an image.
+
+cv2.warpAffine(image, T,(columns, rows))
+
+Example:
+
+T = [[1, 0, 50], [0, 1,-50]]
+
+The area which is black has value [0, 0, 0]
